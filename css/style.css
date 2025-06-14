@@ -1,0 +1,67 @@
+    body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(-45deg, #0a0f1a, #0e1220, #121828, #0a0f1a);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    }
+
+    @keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    }
+
+
+ /* Cor de fundo da navbar, como na imagem */
+      .navbar-custom {
+        background-color: #1A1D21;
+      }
+
+      .logo-img {
+        height: 80px;
+        object-fit: contain;
+        }
+
+      /* Estilo da marca/logo */
+      .navbar-brand-custom {
+        color: #00D8A0; /* Verde-água/Ciano */
+        font-weight: bold;
+      }
+      .navbar-brand-custom i {
+        /* Ajuste fino no ícone do logo */
+        font-size: 1.4rem;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+
+      /* Botão "Entrar" personalizado */
+      .btn-custom-outline {
+        border: 1px solid #00FF94; /* Borda verde vibrante */
+        color: #00FF94;
+      }
+      .btn-custom-outline:hover {
+        background-color: #00FF94;
+        color: #1A1D21; /* Cor do fundo ao passar o mouse */
+      }
+
+      /* Botão "Cadastrar" personalizado */
+      .btn-custom-solid {
+        background-color: #00FF94; /* Fundo verde vibrante */
+        color: #1A1D21; /* Texto escuro */
+        font-weight: 500;
+      }
+      .btn-custom-solid:hover {
+        background-color: #00e083; /* Um pouco mais escuro no hover */
+        color: #1A1D21;
+      }
+
+    
